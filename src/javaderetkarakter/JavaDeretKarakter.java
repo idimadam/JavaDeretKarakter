@@ -33,3 +33,11 @@ public class Tugas1Segitiga {
                 System.out.print("Hasil Karakter yang ditampilkan\n");
         
                 for(c=0;c<xtinggi;c++) {
+                        for(d=c;d<xtinggi;d++) {
+                    System.out.print("*");
+                    }
+                    System.out.print("\n"); 
+                }
+                System.out.println();
+                break;
+                }
