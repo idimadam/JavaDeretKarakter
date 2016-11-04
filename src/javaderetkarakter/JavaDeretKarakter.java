@@ -78,4 +78,19 @@ public class Tugas1Segitiga {
                 }
                 System.out.println();
                 break;
+            case 5:
+                System.out.print("Hasil Karakter yang ditampilkan");
+                
+                for(int k=0; k<=xtinggi; k++) {
+                    for (int l=1; l<=xtinggi-k; l++) {
+                System.out.print (" ");
                 }
+                for (int l=1; l<2*k; l++) {
+                    System.out.print ("*");
+                }
+                System.out.println (" ");
+                }
+                break;
+        }
+    }
+}
