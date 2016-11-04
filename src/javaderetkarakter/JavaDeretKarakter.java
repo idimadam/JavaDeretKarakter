@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tugas1segitiga;
+package javaderetkarakter;
 
 /**
  *
@@ -11,7 +11,7 @@ package tugas1segitiga;
  */
 import javax.swing.JOptionPane;
 
-public class Tugas1Segitiga {
+public class JavaDeretKarakter {
 
     /**
      * @param args the command line arguments
