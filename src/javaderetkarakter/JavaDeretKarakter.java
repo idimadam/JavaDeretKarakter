@@ -64,4 +64,18 @@ public class Tugas1Segitiga {
                 System.out.println();
                 }
                 break;
+            case 4:
+                System.out.print("Hasil Karakter yang ditampilkan");
+                
+                for(int e=0; e<=xtinggi; e++) {
+                    for(int f=0; f<(xtinggi-e); f++) {
+                    System.out.print(" ");
+                    }
+                for(int g=0; g<e; g++) {
+                    System.out.print("*");
+                    }
+                    System.out.println();
+                }
+                System.out.println();
+                break;
                 }
