@@ -40,4 +40,17 @@ public class Tugas1Segitiga {
                 }
                 System.out.println();
                 break;
+            case 2:
+                int a, b;
+                
+                System.out.print("Hasil Karakter yang ditampilkan");
+        
+                for(a=0;a<=xtinggi;a++ ) {
+                    for(b=0; b<a; b++) {
+                    System.out.print("*");
+                    }
+                    System.out.print("\n");
+                }
+                System.out.println();
+                break;
                 }
