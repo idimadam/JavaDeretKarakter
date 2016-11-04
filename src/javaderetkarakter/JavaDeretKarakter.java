@@ -53,4 +53,15 @@ public class Tugas1Segitiga {
                 }
                 System.out.println();
                 break;
+            case 3:
+                for(int h=0; h<xtinggi; h++) {
+                    for(int i=0; i<h; i++) {
+                    System.out.print(" ");
+                    }
+                for(int j=0; j<(xtinggi-h); j++) {
+                    System.out.print("*");
+                }
+                System.out.println();
+                }
+                break;
                 }
