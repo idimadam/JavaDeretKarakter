@@ -25,3 +25,11 @@ public class Tugas1Segitiga {
         
         String tinggi = JOptionPane.showInputDialog("Masukkan karakter : ");
         int xtinggi = Integer.parseInt(tinggi);
+        
+        switch(pilihan){
+            case 1:
+                int c, d;
+                
+                System.out.print("Hasil Karakter yang ditampilkan\n");
+        
+                for(c=0;c<xtinggi;c++) {
